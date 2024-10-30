@@ -1,0 +1,1203 @@
+
+body{
+    font-family: 'airbnbtex', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size:14px;
+    line-height: 20.02px;
+    color: #222222;
+    background-color: #fff;
+    margin: 0;
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; ;
+}
+    @font-face {
+        font-family: 'airbnbtext';
+        src: url(airbnbtext.woff2);
+     }
+     body .top{
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 80px;
+        position: fixed;
+        z-index: 100;
+        background-color: #ffffff;
+        box-shadow: 0 .3px 10px rgba(0 0 0 / 0.1);
+    }
+    .top .first{
+        margin: 0px auto;
+        padding: 0px 80px;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        max-width: 2520px;
+        box-sizing: border-box;
+    }
+    .top .first .logo{
+        flex: 1 0 140px;
+    }
+    .top .first .logo .logo-in{
+        position: relative;
+        align-items: center;
+        width: 102px;
+        height: 80px;
+        align-content: center;
+    }
+    .top .first .logo .logo-in1{
+       display: none;
+    }
+    .top .first  .logo-in svg{
+        fill: rgb(255, 56, 92);
+     }
+     .top .first .stays{
+        padding-left: 24px;
+        padding-right: 24px;
+     }
+     .top .first .stays .stays-in{
+       background-color: #ffffff;
+       align-items: center;
+       border: 1px solid #DDDDDD;
+       border-radius: 40px;
+       position: relative;
+       display: inline-flex;
+       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
+     }
+     .top .first .stays-in .option{
+        align-items: center;
+        display: inline-flex;
+        box-sizing: border-box;
+        text-align: left;
+        max-width: 100%;
+     }
+     .top .first .stays-in .option .button1{
+        margin: -1px;
+        padding-left: 8px;   
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        border: 1px;
+        border-radius: 4px;
+        border-style: solid;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(34, 34, 34);
+        cursor: pointer;
+        min-width: 0px;
+        position: relative;
+        text-align: left;
+        border-color: rgba(0, 0, 0, 0);
+        height: 48px;
+    }
+    .top .first .stays-in .option .button1 p{
+        line-height: 22px;
+        font-weight: 500;
+        padding: 0 16px;
+        white-space: nowrap;
+        margin: 0;
+       font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .top .first .stays-in .option .button1 .two{
+        display: none;
+    }
+    .top .first .stays-in .option .line{
+        background-color: #DDDDDD;
+        height: 24px;
+        width: 1px;
+    }
+    .top .first .stays-in .option .button2{
+        margin: -1px;
+        padding: 0;
+        border: 1px;
+        border-radius: 4px;
+        border-style: solid;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(34, 34, 34);
+        cursor: pointer;
+        min-width: 0px;
+        position: relative;
+        text-align: left;
+        border-color: rgba(0, 0, 0, 0);
+        height: 48px;
+    }
+    .top .first .stays-in .option .button2 p{
+        line-height: 22px;
+        font-weight: 500;
+        padding: 0 16px;
+        white-space: nowrap;
+        margin: 0;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .top .first .stays-in .option .button2 .two{
+        display: none;
+    }
+    .top .first .stays-in .option .button3{
+        margin: -1px -1px -1px -1px;
+        padding: 0;
+        border: 1px;
+        border-radius: 4px;
+        border-style: solid;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(34, 34, 34);
+        cursor: pointer;
+        min-width: 0px;
+        position: relative;
+        text-align: left;
+        border-color: rgba(0, 0, 0, 0);
+        display: flex;
+        height: 48px;
+    }
+    .top .first .stays-in .option .button3 p{
+        line-height: 22px;
+        font-weight: 400;
+        padding: 0 16px;
+        white-space: nowrap;
+        margin: 0;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 14px;
+        color: rgb(106, 106, 106);
+    }
+    .top .first .stays-in .option .button3 .two{
+        display: none;
+    }
+    .top .first .stays-in .option .button3 .search{
+        margin: 7px 7px 7px 0px;
+        padding: 10px;
+        background-color: rgb(255, 56, 92);
+        border-radius: 50%;
+    }
+    .top .first .home{
+        flex: 1 0 140px;
+    }
+    .top .first .home .home-in{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 80px;
+    }
+    .top .first .home .home-in .home-first{
+        display: flex;
+        margin-right: 8px;
+        box-sizing: border-box;
+    }
+    .top .first .home .home-in .home-first .yourhome{
+        padding: 12px;
+        margin: 0;
+    }
+    .top .first .home .home-in .home-first .yourhome p{
+        align-items: center;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 14px;
+        color: rgb(34, 34, 34);
+        font-weight: 500;
+        line-height: 18px;
+        text-wrap: nowrap;
+        margin: 0;
+    }
+    .top .first .home .home-in .home-first .logo{
+        position: relative ;
+        display: inline-block ;
+        vertical-align: middle ;
+        margin-top: auto ;
+        margin-bottom: auto ;
+        padding: 12px;
+    }
+    .top .first .home .home-in .home-second{
+        box-sizing: border-box;
+        height: 48px;
+    }
+    .top .first .home .home-in .home-second .logo{
+        background-color: #ffffff;
+        align-items: center;
+        cursor: pointer;
+        margin: 0;
+        padding: 8px 8px 8px 14px;
+        border: 1px solid;
+        border-radius: 30px;
+        display: flex;
+        border-color: rgb(221, 221, 221);
+        height: 48px;
+    }
+    .top .first .home .home-in .home-second .logo .logo2{
+        margin-left: 14px;
+        width: 32px;
+        height: 32px;
+    }
+    .top2 .first{
+        display: none;
+    }
+    .top2{
+        background: #ffffff;
+        position: sticky;
+        width: 100%;
+        z-index: 9;
+        top: 68px;
+        padding-top: 12px;
+        box-shadow: 0 .2px 10px rgba(0 0 0 / 0.1);
+        height: 78px;
+    }
+    .top2 .second{
+        padding: 0px 80px;
+        margin: 0px auto;
+        max-width: 2520px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 78px;
+    }
+    @media screen and (min-width:2550px){
+        .top2 .second{
+            margin: 0px 20px;
+        }
+    }
+    .top2 .second .second-in{
+        background-color: #ffffff;
+        display: flex;
+       height: 78px;
+        align-items: center;
+        column-gap: 32px;
+        row-gap: 16px;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        margin-right: 20px;
+    }
+    .top2 .second .second-in .section{
+        text-align: center;
+        padding: 4px 0px;
+        margin: 12px 0px 10px;
+        border-radius: 8px;
+    }
+    .top2 .second .second-in .section button{
+        background: transparent;
+        border: none;
+        padding: 0;
+    }
+    .top2 .second .second-in .section .column{
+       gap: 6px;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       margin-right: 8px;
+    }
+    .top2 .second .second-in .section .column img{
+        height: 24px;
+        width: 24px;
+        opacity: 0.7;
+    }
+    .top2 .second .second-in .section button .column img{
+        opacity: 1;
+    }
+    .top2 .second .second-in .section .column p{
+        margin: 0;
+        text-wrap: nowrap;
+        color: rgb(106, 106, 106);
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .top2 .second .second-in .section button .column p{
+        color: rgb(34, 34, 34);
+        font-weight: 600;
+        margin-top: 2px;
+    }
+    hr{
+        margin: 0 100px;
+        width: 28px;
+        border: 1px solid rgb(34, 34, 34);
+    }
+    @media screen and (min-width:1024px) and (max-width:1440px){
+       hr{
+        margin: 0 80px;
+       }
+    }
+    @media screen and (min-width:140px) and (max-width:1024px){
+        hr{
+         margin: 0 40px;
+        }
+     }
+    .top2 .second .button .arrow{
+        border: 0.5px solid rgb(0 0 0 / 0.3);
+        background-color: #ffffff;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+        height: 32px;
+        width: 32px;
+        padding-left: 9px;
+        margin-top: 3px;
+    }
+    @media screen and (max-width:1127px){
+        .top .first .logo .logo-in{
+            display: none;
+        }
+        .top .first{
+            padding: 0px 40px;
+        }
+        .top .first .logo .logo-in1{
+            display: block;
+            align-items: center;
+            position: relative;
+        }
+        .top .first  .logo-in1 svg{
+            fill: rgb(255, 56, 92);
+         }
+         .top2 .second{
+            padding: 0px 40px;
+         }
+    }
+    @media screen and (min-width:743px) and (max-width:949px){
+        .top .first .logo{
+            flex: 0 0 auto;
+        }
+        .top .first .stays-in .option .button1{
+            width: 103.83px;
+        }
+        .top .first .stays-in .option .button1 .one{
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 65%;
+        }
+        .top .first .stays-in .option .button1 .two{
+            /*display: block;*/
+        }
+        .top .first .stays-in .option .button1 p{
+            padding-right: 21px;
+        }
+        .top .first .stays-in .option .button2{
+            width: 93.06px;
+        }
+        .top .first .stays-in .option .button2 .one{
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 59%;
+        }
+        .top .first .stays-in .option .button2 .two{
+           /* display: block;*/
+        }
+        .top .first .stays-in .option .button2 p{
+            padding-right: 25px;
+        }
+        .top .first .stays-in .option .button3{
+            width: 138.86px;
+        }
+        .top .first .stays-in .option .button3 .one{
+            display: none;
+        }
+        .top .first .stays-in .option .button3 .two{
+            display: block;
+        }
+        .top .first .stays-in .option .button3 .search{
+            margin-left: 1px;
+        }
+    }
+    @media screen and (max-width:742px){
+        .top {
+            display: none;
+        }
+        .top2{
+            top: 0;
+             padding: 0;
+             height: 100%;
+             box-shadow: 0 .3px 10px rgba(0 0 0 / 0.1);
+        }
+        .top2 .first{
+           display: block;
+           background: #ffffff;
+           position: relative;
+        }
+        .top2 .first .first-in{
+            margin: 14px 24px 0px 24px;
+            position: relative;
+            box-sizing: border-box;
+        }
+        .top2 .first .first-in .buttons{
+            background: #ffffff;
+            box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
+            border: 0.5px solid rgba(0 0 0 / 0.08);
+            border-radius: 1000px;
+            height: 54px;
+            width: 100%;
+        }
+        .top2 .first .first-in .buttons .button-top{
+            border:none;
+            background: transparent;
+            display: grid;
+            grid-template-columns: 52px minmax(0, 1fr);
+            padding: 0px 4px;
+            align-items: center;
+            border: none;
+            height: 54px;
+            width: 100%;
+        }
+        .top2 .first .first-in .button-top .lense{
+            display: grid;
+            place-items: center;
+        }
+        .top2 .first .first-in .button-top .points{
+            padding-left: 2px;
+            max-width: 100%;
+        }
+        .top2 .first .first-in .button-top .points p{
+            font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+            font-size: 14px;
+            text-align: start;
+            font-weight: 500;
+            margin: 0;
+            line-height: 1.25rem;
+        }
+        .top2 .first .first-in .button-top .options{
+            padding-right: 24px;
+            display: flex;
+            gap: 5px;
+        }
+        .top2 .first .first-in .button-top .options .option{
+            white-space: nowrap;
+            font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+            font-size: 12px;
+            color: rgb(106, 106, 106);
+            line-height: 16px;
+        }
+        .top2 .first .first-in .button-top .options .dot{
+            white-space: nowrap;
+            font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+            font-size: 12px;
+            color: rgb(106, 106, 106);
+            line-height: 16px;
+        }
+        .top2 .second{
+            padding: 0px 0px;
+            height: 74px;
+         }
+         .top2 .second .second-in{
+            padding: 0px 24px;
+            margin: 0;
+            height: 74px;
+         }
+         .top2 .second .button{
+            display: none;
+         }
+         .top2 .second .second-in .section .column{
+           margin: 0;
+           gap: 4px;
+         }
+         .top2 .second .second-in .section button .column p{
+            margin: 0;
+         }
+         hr{
+            margin: 0 24px;
+            width: 30px;
+            border: 1.5px solid rgb(34, 34, 34);
+        }
+    }
+    @media screen and (max-width:320px){
+        .top2 .first .first-in{
+            margin: 14px 16px 0px 16px;
+        }
+    }
+    main{
+        box-sizing: border-box;
+        margin-top: 82px;
+    }
+    main .container{
+        margin: 16px auto 48px auto;
+        background: #ffffff;
+        width: 100%;
+        max-width: 2520px;
+        padding: 0px 80px;
+        box-sizing: border-box;
+    }
+    main .container .grid{
+        display: grid;
+        grid-auto-flow: row dense;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        /*grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));*/
+        gap: 40px 24px;
+    }
+    main .container .grid .content{
+       display: flex;
+       flex-direction: column;
+    }
+    main .container .grid .content .image{
+        margin-bottom: 12px;
+    }
+    main .container .grid .content .image .img-in{
+        position: relative;
+        z-index: 0;
+        border-radius: 12px;
+    }
+    main .container .grid .content .image .img-in .inside-img{
+       display: flex;
+       justify-content: space-between;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        padding-top: 12px;
+        margin-left: -12px;
+        opacity: 0.8;
+    }
+    main .container .grid .content .image .img-in .inside-img button{
+        border-radius: 50%;
+        border: none;
+        padding: 8px;
+    }
+    main .container .grid .content .image .img-in .inside-img button svg{
+        opacity: 0.7;
+    }
+    main .container .grid .content .image .img-in img{
+        object-fit: cover;
+        height:354.6px;
+        width: 100%;
+        position: relative;
+        border-radius: 12px;
+    }
+    .grid .content .about{
+       gap: 2px 8px;
+       display: flex;
+       flex-direction: column;
+       text-wrap: nowrap;
+    }
+    .grid .content .about h3{
+        margin: 0;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19px;
+        color: rgb(34, 34, 34);
+    }
+    .grid .content .about p{
+        margin: 0;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 15px;
+        line-height: 19px;
+        color: rgb(106, 106, 106);
+    }
+    @media screen and (min-width:1560px) and (max-width:1863px){
+        main .container .grid{
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+        }
+        main .container .grid .content .image .img-in img{
+            height: 297.16px;
+         }
+    }
+    @media screen and (min-width:1128px) and (max-width:1559px){
+        main .container .grid{
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+        main .container .grid .content .image .img-in img{
+          height: 286px;
+        }
+    }
+    @media screen and (min-width:948px)and (max-width:1128px){
+        main .container{
+            padding: 0px 40px;
+        }
+        main .container .grid{
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        main .container .grid .content .image .img-in img{
+            height: 283px;
+        }
+    }
+    @media screen and (min-width:551px)and (max-width:948px){
+        main .container{
+            padding: 0px 40px;
+        }
+        main .container .grid{
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        main .container .grid .content .image .img-in img{
+            height: 315px;
+        }
+    }
+    @media screen and (max-width:551px){
+        main{
+            margin: 0;
+        }
+        main .container{
+            padding: 0px 24px;
+            margin-top: 22px;
+        }
+        main .container .grid{
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        main .container .grid .content .image .img-in img{
+           height: 354.54px;
+        }
+        .grid .content .about{
+            text-wrap: wrap;
+        }
+    }
+   .container .heading2{
+    margin: 52px 0px 24px 0px;
+   }
+   .container .heading2 h2{
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: -0.64px;
+        line-height: 36px;
+        color: rgb(34, 34, 34);
+   }
+    .container .grid2{
+        gap: 40px 24px;
+        display: grid;
+        grid-template-columns: repeat(6,minmax(0, 1fr));
+        grid-auto-rows: minmax(min-content, max-content);
+    }
+    .container .grid2 .card{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-width: 0;
+        width: 100%;
+        /*display: grid;
+        grid-template-columns: 100%;*/
+    }
+    .container .grid2 .card .image{
+        margin-bottom: 6px;
+    }
+    .container .grid2 .card .image img{
+        object-fit: cover;
+        height: 354.66px;
+        width: 100%;
+        border-radius: 12px;
+    }
+    main .container .grid2 .card .image .img-in{
+        position: relative;
+        z-index: 0;
+        border-radius: 12px;
+    }
+    .container .grid2 .card .image .img-in .inside-img{
+        display: flex;
+        justify-content: space-between;
+         position: absolute;
+         z-index: 1;
+         padding-top: 10px;
+         margin-left: -10px;
+         opacity: 0.8;
+         width: 100%;
+    }
+    .container .grid2 .card .image .img-in .inside-img button{
+        border-radius: 50%;
+        padding: 9px;
+        border: none;
+    }
+    .container .grid2 .card .image .img-in .inside-img button svg{
+        opacity: 0.7;
+    }
+    .container .grid2 .card .about{
+        gap: 2px 8px;
+        display: flex;
+        flex-direction: column;
+        text-wrap: nowrap;
+    }
+    .container .grid2 .card .about h3{
+        margin: 0;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19px;
+        color: rgb(34, 34, 34);
+    }
+    .container .grid2 .card .about p{
+        margin: 0;
+        font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+        font-size: 15px;
+        line-height: 19px;
+        color: rgb(106, 106, 106);
+    }
+    @media screen and (min-width:1560px) and (max-width:1863px){
+        .container .grid2{
+            grid-template-columns: repeat(5, minmax(0, 1fr));
+        }
+         .container .grid2 .card .image  img{
+            height: 279.47px;
+        }
+    }
+    @media screen and (min-width:1128px) and (max-width:1635px){
+         .container .grid2{
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+         .container .grid2 .card .image  img{
+            height: 286px;
+        }
+    }
+    @media screen and (min-width:948px)and (max-width:1128px){
+        main .container .grid2{
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        main .container .grid2 .card .image img{
+            height: 283px;
+        }
+    }
+    @media screen and (min-width:551px)and (max-width:948px){
+        main .container .grid2{
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        main .container .grid2 .card .image img{
+            height: 315px;
+        }
+    }
+    @media screen and (max-width:551px){
+        main .container .grid2{
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        main .container .grid2 .card .image img{
+            height: 358.14px;
+        }
+    }
+   .final .bottom{
+    background: #f7f7f7;
+   }
+   .final .bottom .bottom-in{
+    gap: 24px;
+    display: grid;
+    margin: 0px auto;
+    padding: 48px 80px;
+    max-width: 2520px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 4fr) minmax(0, 1fr);
+   }
+   @media screen and (min-width:2550px){
+    .final .bottom .bottom-in{
+        margin: 0px 20px;
+    }
+}
+   .final .bottom .bottom-in .inner{
+    grid-column-start: 2;
+   }
+   .final .bottom .bottom-in h2{
+    margin-bottom: 8px;
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.22px;
+    line-height: 26px;
+    margin-top: 0;
+    text-wrap: nowrap;
+   }
+   .final .bottom .bottom-in .grid3 .getaways{
+     position: relative;
+     padding: 0px 12px;
+     margin: 0px -12px;
+   }
+   .final .bottom .bottom-in .grid3 .getaways hr{
+     width: 100%;
+     height: 1px;
+     border-top: 0;
+     border-bottom: 0.1px solid rgba(106, 106, 106, 0.11);
+     margin: 0px -12px;
+   }
+   .final .bottom .bottom-in .grid3 .getaways .arrow{
+    display: none;
+   }
+   .final .bottom .bottom-in .grid3 .getaways .getaway{
+    white-space: nowrap;
+    display: flex;
+   }
+   .final .bottom .bottom-in .grid3 .getaways .getaway button{
+    margin-left: 0px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    margin-top: 6px;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    position: relative;
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(106, 106, 106);
+   }
+   .final .bottom .bottom-in .grid3 .getaways .getaway .one{
+    margin-left: -10px;
+    margin-right: 6px;
+    color: rgb(34, 34, 34); 
+   }
+   .final .bottom .bottom-in .grid3 .popular{
+     padding-top: 32px;
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4{
+      padding: 0;
+      margin: 0;
+      row-gap: 24px;
+      column-gap: 8px;
+      display: grid;
+      grid-template-columns: repeat(6,minmax(0, 1fr));
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4 li{
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4 li .first{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    line-height: 18px;
+    letter-spacing: normal;
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4 li .second{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    color: rgb(106, 106, 106);
+    line-height: 18px;
+    letter-spacing: normal;
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4 li button{
+     align-items: center;
+     padding: 0;
+     cursor: pointer;
+     border: none;
+     text-align: center;
+     margin: 0;
+     background: transparent;
+     display: flex;
+     flex-direction: row;
+     gap: 4px;
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4 li button span{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    line-height: 18px;
+   }
+   .final .bottom .bottom-in .grid3 .popular .grid4 li button svg{
+    height: 12px;
+    width: 12px;
+    margin: 0;
+    padding: 0;
+   }
+   footer{
+    border-top: 1px solid #DDDDDD;
+    background: #f7f7f7;
+    box-sizing: border-box;
+   }
+   footer .grid4{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 4fr) minmax(0, 1fr);
+    padding: 0px 80px;
+    margin: 0px 20px;
+    gap: 24px;
+   }
+   footer .grid4 .grid4-in{
+    grid-column-start: 2;
+   }
+   footer .grid4 .grid4-in .inside{
+    column-gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+   }
+   footer .grid4 .grid4-in .inside .column{
+    padding: 48px 0px;
+   }
+   footer .grid4 .grid4-in .inside .column h3{
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: rgb(34, 34, 34);
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+   }
+   footer .grid4 .grid4-in .inside .column ul{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+    list-style: none;
+   }
+   footer .grid4 .grid4-in .inside .column ul li{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    margin: 0;
+   }
+   footer .grid4 .grid4-in .last{
+    padding: 24px 0px;
+    border-top: 1px solid #DDDDDD;
+   }
+   footer .grid4 .grid4-in .last section{
+    align-items: center;
+    box-sizing: border-box;
+   }
+   footer .grid4 .grid4-in .last section .last-in{
+    display: flex;
+    justify-content: space-between;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .first{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+    line-height: 1.125rem;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .second{
+    display: inline-block;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .second .dotin{
+    display: inline-block;
+    height: 18px;
+    width: 19px;
+   }
+  footer .grid4 .grid4-in .last .last-in .section1 .second .dotin .dot{
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 0.875rem ;
+    line-height: 1.125rem;
+    padding: 0;
+    margin-left: 8px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .second-in li .dot{
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 0.875rem ;
+    line-height: 1.125rem;
+    padding-left: 6px;
+    padding-right: 6px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .second-in li:first-child .dot{
+     padding-left: 5px;
+     padding-right: 8px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .second-in li:nth-child(2) .dot{
+    padding-left: 4px;
+    padding-right: 8px;
+  }
+  footer .grid4 .grid4-in .last .last-in .section1 .second-in li:nth-child(3) .dot{
+    padding-left: 4px;
+    padding-right: 8px;
+  }
+   footer .grid4 .grid4-in .last .last-in .section1 .second ul{
+    text-align: left;
+    margin: 0px 0px 0px -3px;
+    padding: 0;
+    display: inline flex;
+    list-style-type: none;
+   }
+   footer .grid4 .grid4-in .last .last-in .section1 .second ul li{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+    line-height: 1.125rem;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2{
+    display: flex;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first{
+    display: flex;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first .language{
+    margin-right: 24px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first .language button{
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px ;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(34, 34, 34);
+    display: flex ;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none ;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first .language button svg{
+    margin-right: 8px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first .language button p{
+    margin: 0;
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first{
+    align-items: center;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first .RS{
+    align-items: center;
+    font-family:'airbnbtext', Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; 
+    font-weight: 500;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px ;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(34, 34, 34);
+    display: flex ;
+    white-space: nowrap;
+    text-decoration: none ;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .first .RS .logo{
+    margin-right: 5px;
+    font-size: 16px;
+    letter-spacing: normal;
+    font-weight: 500;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .social{
+    margin-left: 24px;
+    display: flex;
+    padding: 0;
+    align-items: center;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .social svg{
+    margin-right: 16px;
+   }
+   footer .grid4 .grid4-in .last .last-in .section2 .social svg:nth-child(3){
+    margin: 0;
+   }
+   @media screen and (max-width:1880px){
+    .final .bottom .bottom-in{
+        display: block;
+    }
+    footer .grid4{
+        display: block;
+        margin: 0px auto;
+    }
+    footer .grid4 .grid4-in .last .last-in .section2{
+        margin-top: -1px;
+    }
+   } 
+   @media screen and (max-width:1126px) {
+    .final .bottom .bottom-in{
+        padding: 48px 40px;
+    }
+    .final .bottom .bottom-in .grid3 .popular .grid4{
+        grid-template-columns: repeat(3,minmax(0, 1fr));
+    }
+    .final .bottom .bottom-in .grid3 .popular .grid4 .three{
+        display: none;
+    }
+    footer .grid4{
+        padding: 0px 40px;
+    }
+    footer .grid4 .grid4-in .last section{
+        display: block;
+    }
+    footer .grid4 .grid4-in .last section .last-in{
+       flex-direction: column-reverse;
+       align-items: center;
+    }
+    footer .grid4 .grid4-in .last .last-in .section1 .first{
+        margin-bottom: 2px;
+    }
+    footer .grid4 .grid4-in .last .last-in .section2{
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+    footer .grid4 .grid4-in .last .last-in .section2 .social{
+        margin-left: 48px;
+    }
+    footer .grid4 .grid4-in .last .last-in .section1{
+        flex-direction: column;
+    }
+     footer .grid4 .grid4-in .last .last-in .section1 .first{
+        margin-bottom: 2px;
+    }
+    footer .grid4 .grid4-in .last .last-in .section1 .second .dotin{
+        display: none;
+    }
+    footer .grid4 .grid4-in .last .last-in .section1 .second{
+        height: 18px;
+    }
+   }
+   @media screen and (max-width:948px){
+    .final .bottom .bottom-in .grid3 .popular .grid4{
+        grid-template-columns: repeat(2,minmax(0, 1fr));
+    }
+    .final .bottom .bottom-in .grid3 .getaways{
+        display: flex;
+    }
+    .final .bottom .bottom-in .grid3 .getaways .getaway{
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    .final .bottom .bottom-in .grid3 .getaways .getaway {
+        margin: 0px -12px 0px 0px;
+    }
+    .final .bottom .bottom-in .grid3 .getaways .arrow{
+        display: block;
+        background-color: transparent;
+        align-items: center;
+        border: none;
+        justify-content: flex-end;
+        margin-right: -17px;
+        margin-left: 20px;
+        right: -12px;    
+    }
+    footer .grid4 .grid4-in .inside{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .grid4 .grid4-in .inside .column{
+        padding: 24px 0px;
+    }
+    footer .grid4 .grid4-in .inside .column:nth-child(2){
+        border-top: 1px solid #DDDDDD;
+    }
+    footer .grid4 .grid4-in .inside .column:nth-child(3){
+        border-top: 1px solid #DDDDDD;
+    }
+    .final .bottom .bottom-in .grid3 .getaways hr{
+        display: none;
+    }
+   }
+   @media screen and (max-width:552px){
+    .final .bottom .bottom-in{
+        padding: 48px 24px;
+    }
+    .final .bottom .bottom-in .grid3 .popular .grid4 .two{
+        display: none;
+    }
+    footer .grid4{
+        padding: 0px 24px;
+    }
+    footer .grid4 .grid4-in .last .last-in .section1 .first{
+        margin-bottom: 5px;
+    }
+    footer .grid4 .grid4-in .last .last-in .section2{
+        margin-bottom: 22px;
+    }
+    footer .grid4 .grid4-in .last{
+        padding: 24px 0px 26px 0px;
+    }
+   }
+   @media screen and (max-width:743px){
+    footer .grid4 .grid4-in .last section .last-in{
+        align-items: flex-start;
+    }
+    footer .grid4 .grid4-in .last .last-in .section2 .social{
+        display: none;
+    }
+    footer .grid4 .grid4-in .last .last-in .section1{
+        align-items: flex-start;
+    }
+   }
+   
